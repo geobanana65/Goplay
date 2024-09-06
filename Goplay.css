@@ -1,0 +1,66 @@
+*
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu {
+    background-color: rgba(26, 26, 26, 0.212);
+    width: 130px;
+    height: 200px;
+    margin-left: -10px;
+}
+
+.darkMode {
+    background-color: black;
+    border: none;
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+    border-radius: 11px 0px 0px 11px;
+}
+
+.darkMode:hover {
+    height: 40px;
+    width: 50px;
+    transition: 0.3s;
+    border-radius: 11px 11px 0px 11px;
+    
+}
+.darkMode:not(:hover) {
+    transition: 0.3s;
+}
+
+.lightMode {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 40px;
+    margin-left: -4px;
+    border-radius: 0px 11px 11px 0px;
+}
+
+.lightMode:hover {
+    height: 40px;
+    width: 50px;
+    transition: 0.3s;
+    border-radius: 11px 11px 11px 0px;
+}
+.lightMode:not(:hover) {
+    transition: 0.3s;
+}
+.games {
+    border-radius: 17.5px;
+    margin-left: 160px;
+    margin-top: -150px;
+    width: 100px;
+}
+.games:hover {
+    border-radius: 10px;
+    height: 120px;
+    width: 110px;
+    transition: 0.2s;
+}
+.games:not(:hover) {
+    transition: 0.2s;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="getontop.css">
+  </head>
+  <body>
+    <div class="menu">
+      <a href="GoPlay.html"><img src="Logo.png" alt="Logo" height="135px" ></a>
+      <button class="darkMode" onClick="colorBlack()"></button>
+      <button class="lightMode" onClick="colorWhite()"></button>
+  </div>
+    <script>
+            function colorBlack() {
+                document.body.style.background="rgb(82, 82, 82)";
+            }
+
+            function colorWhite() {
+                document.body.style.background="rgb(255, 255, 255)";
+            }
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+*
+.menu {
+  background-color: rgba(26, 26, 26, 0.212);
+  width: 130px;
+  height: 200px;
+  margin-left: -10px;
+}
+
+.darkMode {
+  background-color: black;
+  border: none;
+  height: 30px;
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 11px 0px 0px 11px;
+}
+
+.darkMode:hover {
+  height: 40px;
+  width: 50px;
+  transition: 0.3s;
+  border-radius: 11px 11px 0px 11px;
+  
+}
+.darkMode:not(:hover) {
+  transition: 0.3s;
+}
+
+.lightMode {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 40px;
+  margin-left: -4px;
+  border-radius: 0px 11px 11px 0px;
+}
+
+.lightMode:hover {
+  height: 40px;
+  width: 50px;
+  transition: 0.3s;
+  border-radius: 11px 11px 11px 0px;
+}
+.lightMode:not(:hover) {
+  transition: 0.3s;
+}

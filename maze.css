@@ -1,0 +1,54 @@
+*
+.menu {
+  background-color: rgba(26, 26, 26, 0.212);
+  width: 130px;
+  height: 200px;
+  margin-left: -10px;
+}
+
+.darkMode {
+  background-color: black;
+  border: none;
+  height: 30px;
+  width: 40px;
+  margin-left: 20px;
+  border-radius: 11px 0px 0px 11px;
+}
+
+.darkMode:hover {
+  height: 40px;
+  width: 50px;
+  transition: 0.3s;
+  border-radius: 11px 11px 0px 11px;
+  
+}
+.darkMode:not(:hover) {
+  transition: 0.3s;
+}
+
+.lightMode {
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border: none;
+  height: 30px;
+  width: 40px;
+  margin-left: -4px;
+  border-radius: 0px 11px 11px 0px;
+}
+
+.lightMode:hover {
+  height: 40px;
+  width: 50px;
+  transition: 0.3s;
+  border-radius: 11px 11px 11px 0px;
+}
+.lightMode:not(:hover) {
+  transition: 0.3s;
+}
+.maze {
+    height: 450px;
+    width: 800px;
+    margin-left: 250px;
+    margin-top: -100px;
+    border-radius: 30px;
+  }
